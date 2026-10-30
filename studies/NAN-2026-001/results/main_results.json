@@ -1,0 +1,307 @@
+{
+  "study": "NAN-2026-001",
+  "analysis": "main",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "frozen_commit": "b0c0fa4cb863219626233f61da9b76616c2f255d",
+  "horizons": [
+    1,
+    5,
+    10
+  ],
+  "anchors": {
+    "first": 1,
+    "last": 39,
+    "h_max": 10
+  },
+  "constants": {
+    "BOX_SIZE": 1.0,
+    "N_PATHS": 100,
+    "PATH_LENGTH": 50,
+    "SPEED_MIN": 0.01,
+    "SPEED_MAX": 0.05,
+    "START_MIN": 0.05,
+    "START_MAX": 0.95,
+    "source_label": "ASSUMED (WORKORDER.md, Part 3.1)"
+  },
+  "per_seed": {
+    "0": {
+      "1": {
+        "SP": {
+          "value": 0.03208034421899843,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.002387927050417222,
+          "label": "MEASURED"
+        }
+      },
+      "5": {
+        "SP": {
+          "value": 0.15089722424149912,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.0363766459339858,
+          "label": "MEASURED"
+        }
+      },
+      "10": {
+        "SP": {
+          "value": 0.2785912198887486,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.13098152013478553,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "1": {
+      "1": {
+        "SP": {
+          "value": 0.028659382939562664,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.0019817143210533244,
+          "label": "MEASURED"
+        }
+      },
+      "5": {
+        "SP": {
+          "value": 0.13555927673907445,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.030160117598987714,
+          "label": "MEASURED"
+        }
+      },
+      "10": {
+        "SP": {
+          "value": 0.2509104778841774,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.11087171716285646,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "2": {
+      "1": {
+        "SP": {
+          "value": 0.030540490195894998,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.002141844935164864,
+          "label": "MEASURED"
+        }
+      },
+      "5": {
+        "SP": {
+          "value": 0.14467266364351564,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.031863168399970436,
+          "label": "MEASURED"
+        }
+      },
+      "10": {
+        "SP": {
+          "value": 0.269268696714432,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.11472383646714694,
+          "label": "MEASURED"
+        }
+      }
+    }
+  },
+  "summary": {
+    "1": {
+      "SP": {
+        "mean": {
+          "value": 0.030426739118152028,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0017133150613986496,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.028659382939562664,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.03208034421899843,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.0021704954355451366,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0002046163086201751,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.0019817143210533244,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.002387927050417222,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.02825624368260689,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0015124106129385296,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.02667766861850934,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.029692417168581207,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "5": {
+      "SP": {
+        "mean": {
+          "value": 0.14370972154136308,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.007714181843582464,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.13555927673907445,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.15089722424149912,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.03279997731098131,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0032124000897725295,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.030160117598987714,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.0363766459339858,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.11090974423038176,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.004848387602181362,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.10539915914008674,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.11452057830751333,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "10": {
+      "SP": {
+        "mean": {
+          "value": 0.2662567981624527,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.014084016442281971,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.2509104778841774,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.2785912198887486,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.11885902458826297,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.010673606676761902,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.11087171716285646,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.13098152013478553,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.14739777357418968,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.007255371485564937,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.14003876072132096,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.15454486024728503,
+          "label": "MEASURED"
+        }
+      }
+    }
+  },
+  "environment": {
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "os": "Windows-11-10.0.26200-SP0",
+    "cpu": "Intel(R) Celeron(R) N4020 CPU @ 1.10GHz"
+  },
+  "wall_clock_seconds": 0.2973865999992995,
+  "timestamp": "2026-10-30T16:47:13.503588+00:00"
+}

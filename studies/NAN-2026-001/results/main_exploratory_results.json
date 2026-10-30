@@ -1,0 +1,2221 @@
+{
+  "study": "NAN-2026-001",
+  "analysis": "main_exploratory",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "frozen_commit": "b0c0fa4cb863219626233f61da9b76616c2f255d",
+  "horizons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "anchors": {
+    "first": 1,
+    "last": 24,
+    "h_max": 25
+  },
+  "constants": {
+    "BOX_SIZE": 1.0,
+    "N_PATHS": 100,
+    "PATH_LENGTH": 50,
+    "SPEED_MIN": 0.01,
+    "SPEED_MAX": 0.05,
+    "START_MIN": 0.05,
+    "START_MAX": 0.95,
+    "source_label": "ASSUMED (WORKORDER.md, Part 3.1)"
+  },
+  "per_seed": {
+    "0": {
+      "1": {
+        "SP": {
+          "value": 0.03210160616701807,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.0023479448194807634,
+          "label": "MEASURED"
+        }
+      },
+      "2": {
+        "SP": {
+          "value": 0.06332198196177732,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.0070421733160931175,
+          "label": "MEASURED"
+        }
+      },
+      "3": {
+        "SP": {
+          "value": 0.09357381343392693,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.014137200324777898,
+          "label": "MEASURED"
+        }
+      },
+      "4": {
+        "SP": {
+          "value": 0.12289171823533582,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.02361520311738237,
+          "label": "MEASURED"
+        }
+      },
+      "5": {
+        "SP": {
+          "value": 0.15124272261039162,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.03545148541215594,
+          "label": "MEASURED"
+        }
+      },
+      "6": {
+        "SP": {
+          "value": 0.1786399203098784,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.04963408904875903,
+          "label": "MEASURED"
+        }
+      },
+      "7": {
+        "SP": {
+          "value": 0.20503531729309205,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.06614382152696623,
+          "label": "MEASURED"
+        }
+      },
+      "8": {
+        "SP": {
+          "value": 0.23040815427068784,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.08501605021714718,
+          "label": "MEASURED"
+        }
+      },
+      "9": {
+        "SP": {
+          "value": 0.25470987516019883,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.10628017921866122,
+          "label": "MEASURED"
+        }
+      },
+      "10": {
+        "SP": {
+          "value": 0.2778879174684081,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.1299504624634633,
+          "label": "MEASURED"
+        }
+      },
+      "11": {
+        "SP": {
+          "value": 0.29994261916733045,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.15597226447273319,
+          "label": "MEASURED"
+        }
+      },
+      "12": {
+        "SP": {
+          "value": 0.32099455979425373,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.18417976754623108,
+          "label": "MEASURED"
+        }
+      },
+      "13": {
+        "SP": {
+          "value": 0.3410242156765521,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.2145325821350642,
+          "label": "MEASURED"
+        }
+      },
+      "14": {
+        "SP": {
+          "value": 0.36001574644298695,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.24702468689347692,
+          "label": "MEASURED"
+        }
+      },
+      "15": {
+        "SP": {
+          "value": 0.3779779273220467,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.2815769701244103,
+          "label": "MEASURED"
+        }
+      },
+      "16": {
+        "SP": {
+          "value": 0.39493358929308414,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.3181300365583037,
+          "label": "MEASURED"
+        }
+      },
+      "17": {
+        "SP": {
+          "value": 0.4108477686044721,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.3567172647062528,
+          "label": "MEASURED"
+        }
+      },
+      "18": {
+        "SP": {
+          "value": 0.42571290132585937,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.397418430775603,
+          "label": "MEASURED"
+        }
+      },
+      "19": {
+        "SP": {
+          "value": 0.43951029828176486,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.44019903279991107,
+          "label": "MEASURED"
+        }
+      },
+      "20": {
+        "SP": {
+          "value": 0.452311558113913,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.4849808860573315,
+          "label": "MEASURED"
+        }
+      },
+      "21": {
+        "SP": {
+          "value": 0.46418530835366834,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.5314765719736678,
+          "label": "MEASURED"
+        }
+      },
+      "22": {
+        "SP": {
+          "value": 0.4750779795998236,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.5792010165988719,
+          "label": "MEASURED"
+        }
+      },
+      "23": {
+        "SP": {
+          "value": 0.4850085419865736,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.627813369859403,
+          "label": "MEASURED"
+        }
+      },
+      "24": {
+        "SP": {
+          "value": 0.49407525975288613,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.6768855799678588,
+          "label": "MEASURED"
+        }
+      },
+      "25": {
+        "SP": {
+          "value": 0.502244705640163,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.7260624949847347,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "1": {
+      "1": {
+        "SP": {
+          "value": 0.028652617204301414,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.001969961084643884,
+          "label": "MEASURED"
+        }
+      },
+      "2": {
+        "SP": {
+          "value": 0.05660679622273578,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.005960148593619824,
+          "label": "MEASURED"
+        }
+      },
+      "3": {
+        "SP": {
+          "value": 0.0837366895722357,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.011942688397778251,
+          "label": "MEASURED"
+        }
+      },
+      "4": {
+        "SP": {
+          "value": 0.1101452206204443,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.019911022050812733,
+          "label": "MEASURED"
+        }
+      },
+      "5": {
+        "SP": {
+          "value": 0.1356769387588214,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.02992938473166326,
+          "label": "MEASURED"
+        }
+      },
+      "6": {
+        "SP": {
+          "value": 0.16041790124761163,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.04200026579326456,
+          "label": "MEASURED"
+        }
+      },
+      "7": {
+        "SP": {
+          "value": 0.1843027652568922,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.05609785705978157,
+          "label": "MEASURED"
+        }
+      },
+      "8": {
+        "SP": {
+          "value": 0.20736072687012752,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.07222631155884503,
+          "label": "MEASURED"
+        }
+      },
+      "9": {
+        "SP": {
+          "value": 0.22950776357773436,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.09037923487185,
+          "label": "MEASURED"
+        }
+      },
+      "10": {
+        "SP": {
+          "value": 0.25094649288031395,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.11041479394794255,
+          "label": "MEASURED"
+        }
+      },
+      "11": {
+        "SP": {
+          "value": 0.27157498345048786,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.13233799299777563,
+          "label": "MEASURED"
+        }
+      },
+      "12": {
+        "SP": {
+          "value": 0.2914183688004981,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.15618953986674783,
+          "label": "MEASURED"
+        }
+      },
+      "13": {
+        "SP": {
+          "value": 0.31037818591973443,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.18196059137952986,
+          "label": "MEASURED"
+        }
+      },
+      "14": {
+        "SP": {
+          "value": 0.32857634118082235,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.20959966671154828,
+          "label": "MEASURED"
+        }
+      },
+      "15": {
+        "SP": {
+          "value": 0.3459609848055761,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.2390400941869054,
+          "label": "MEASURED"
+        }
+      },
+      "16": {
+        "SP": {
+          "value": 0.362607696954595,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.2702074760549291,
+          "label": "MEASURED"
+        }
+      },
+      "17": {
+        "SP": {
+          "value": 0.3784575293729677,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.30302822406612007,
+          "label": "MEASURED"
+        }
+      },
+      "18": {
+        "SP": {
+          "value": 0.3935245828789336,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.33748985475440235,
+          "label": "MEASURED"
+        }
+      },
+      "19": {
+        "SP": {
+          "value": 0.40771446068746786,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.3735116722169357,
+          "label": "MEASURED"
+        }
+      },
+      "20": {
+        "SP": {
+          "value": 0.4211142874149076,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.4110228102121238,
+          "label": "MEASURED"
+        }
+      },
+      "21": {
+        "SP": {
+          "value": 0.43363661674171566,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.4497883780910787,
+          "label": "MEASURED"
+        }
+      },
+      "22": {
+        "SP": {
+          "value": 0.44542309633183,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.48958617399822923,
+          "label": "MEASURED"
+        }
+      },
+      "23": {
+        "SP": {
+          "value": 0.45643672356924003,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.5302893805006569,
+          "label": "MEASURED"
+        }
+      },
+      "24": {
+        "SP": {
+          "value": 0.4667594132994147,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.5718722762904883,
+          "label": "MEASURED"
+        }
+      },
+      "25": {
+        "SP": {
+          "value": 0.47630498386755743,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.6142259194614508,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "2": {
+      "1": {
+        "SP": {
+          "value": 0.030511126299334706,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.0021981703617240367,
+          "label": "MEASURED"
+        }
+      },
+      "2": {
+        "SP": {
+          "value": 0.06014256690304138,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.006663055900881342,
+          "label": "MEASURED"
+        }
+      },
+      "3": {
+        "SP": {
+          "value": 0.08888378885321,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.01345198319883395,
+          "label": "MEASURED"
+        }
+      },
+      "4": {
+        "SP": {
+          "value": 0.1167579095887497,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.02252261708188686,
+          "label": "MEASURED"
+        }
+      },
+      "5": {
+        "SP": {
+          "value": 0.14381186620607578,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.03379807286893761,
+          "label": "MEASURED"
+        }
+      },
+      "6": {
+        "SP": {
+          "value": 0.17001713301382454,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.047252637559612155,
+          "label": "MEASURED"
+        }
+      },
+      "7": {
+        "SP": {
+          "value": 0.1953721722513481,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.06284093647059492,
+          "label": "MEASURED"
+        }
+      },
+      "8": {
+        "SP": {
+          "value": 0.21989185659231586,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.08054509941130422,
+          "label": "MEASURED"
+        }
+      },
+      "9": {
+        "SP": {
+          "value": 0.243564223360403,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.10038458592666179,
+          "label": "MEASURED"
+        }
+      },
+      "10": {
+        "SP": {
+          "value": 0.26629658019247804,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.12241249490662205,
+          "label": "MEASURED"
+        }
+      },
+      "11": {
+        "SP": {
+          "value": 0.28800904115492365,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.1466788397166565,
+          "label": "MEASURED"
+        }
+      },
+      "12": {
+        "SP": {
+          "value": 0.3087589836756552,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.17305947725377802,
+          "label": "MEASURED"
+        }
+      },
+      "13": {
+        "SP": {
+          "value": 0.32861473057996266,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.20143620538801013,
+          "label": "MEASURED"
+        }
+      },
+      "14": {
+        "SP": {
+          "value": 0.34756877332793246,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.23176452140906662,
+          "label": "MEASURED"
+        }
+      },
+      "15": {
+        "SP": {
+          "value": 0.36568778738743113,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.2639852977165971,
+          "label": "MEASURED"
+        }
+      },
+      "16": {
+        "SP": {
+          "value": 0.38294727245411425,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.29806914332744744,
+          "label": "MEASURED"
+        }
+      },
+      "17": {
+        "SP": {
+          "value": 0.3993642493750174,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.3339242716707463,
+          "label": "MEASURED"
+        }
+      },
+      "18": {
+        "SP": {
+          "value": 0.41500508283434234,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.37147852359782196,
+          "label": "MEASURED"
+        }
+      },
+      "19": {
+        "SP": {
+          "value": 0.4299160784049666,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.4105918073753123,
+          "label": "MEASURED"
+        }
+      },
+      "20": {
+        "SP": {
+          "value": 0.44403946102726954,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.45125471200271583,
+          "label": "MEASURED"
+        }
+      },
+      "21": {
+        "SP": {
+          "value": 0.45745225343389934,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.4931305533370505,
+          "label": "MEASURED"
+        }
+      },
+      "22": {
+        "SP": {
+          "value": 0.47016412143861713,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.5358896590333927,
+          "label": "MEASURED"
+        }
+      },
+      "23": {
+        "SP": {
+          "value": 0.48222812300190604,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.5793422968805437,
+          "label": "MEASURED"
+        }
+      },
+      "24": {
+        "SP": {
+          "value": 0.49358404545306067,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.6233439796402032,
+          "label": "MEASURED"
+        }
+      },
+      "25": {
+        "SP": {
+          "value": 0.5041457326932173,
+          "label": "MEASURED"
+        },
+        "CV": {
+          "value": 0.6676863689218524,
+          "label": "MEASURED"
+        }
+      }
+    }
+  },
+  "summary": {
+    "1": {
+      "SP": {
+        "mean": {
+          "value": 0.030421783223551397,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0017262293750044187,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.028652617204301414,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.03210160616701807,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.0021720254219495614,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0001903433591097081,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.001969961084643884,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.0023479448194807634,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.028249757801601837,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0015364777189118223,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.02668265611965753,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.02975366134753731,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "2": {
+      "SP": {
+        "mean": {
+          "value": 0.06002378169585149,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.003359168397318313,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.05660679622273578,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.06332198196177732,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.006555125936864761,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0005490273516504596,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.005960148593619824,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.0070421733160931175,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.05346865575898673,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.002816596196985703,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.05064664762911596,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.05627980864568421,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "3": {
+      "SP": {
+        "mean": {
+          "value": 0.08873143061979087,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0049203314157718735,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.0837366895722357,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.09357381343392693,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.013177290640463366,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0011227478125803935,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.011942688397778251,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.014137200324777898,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.07555413997932751,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.003822774327810693,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.07179400117445746,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.07943661310914903,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "4": {
+      "SP": {
+        "mean": {
+          "value": 0.11659828281484326,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.006374747908099554,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.1101452206204443,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.12289171823533582,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.022016280750027317,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0019032923328285575,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.019911022050812733,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.02361520311738237,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.09458200206481594,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0045311177184218,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.09023419856963157,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.09927651511795345,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "5": {
+      "SP": {
+        "mean": {
+          "value": 0.14357717585842958,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.007785545350064429,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.1356769387588214,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.15124272261039162,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.033059647670918936,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0028341405771725777,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.02992938473166326,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.03545148541215594,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.11051752818751066,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.005040754359206214,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.10574755402715813,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.11579123719823568,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "6": {
+      "SP": {
+        "mean": {
+          "value": 0.16969165152377153,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.009115368798171517,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.16041790124761163,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.1786399203098784,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.04629566413387858,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0039058498405855594,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.04200026579326456,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.04963408904875903,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.12339598738989295,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0053222701133313205,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.11841763545434707,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.12900583126111936,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "7": {
+      "SP": {
+        "mean": {
+          "value": 0.19490341826711077,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.010374221715711365,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.1843027652568922,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.20503531729309205,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.06169420501911424,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.005120214378846399,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.05609785705978157,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.06614382152696623,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.13320921324799653,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.005375456125030199,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.12820490819711064,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.1388914957661258,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "8": {
+      "SP": {
+        "mean": {
+          "value": 0.21922024591104372,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.01153838260443914,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.20736072687012752,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.23040815427068784,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.07926248706243215,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.006490622047618127,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.07222631155884503,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.08501605021714718,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.13995775884861159,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.005156067965186238,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.1351344153112825,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.14539210405354064,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "9": {
+      "SP": {
+        "mean": {
+          "value": 0.24259395403277875,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.012629040897069092,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.22950776357773436,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.25470987516019883,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.099014666672391,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.008038502152298852,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.09037923487185,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.10628017921866122,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.14357928736038775,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.004663444867723714,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.13912852870588438,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.1484296959415376,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "10": {
+      "SP": {
+        "mean": {
+          "value": 0.2650436635137334,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.013514342006250178,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.25094649288031395,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.2778879174684081,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.1209259171060093,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.009852310452631565,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.11041479394794255,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.1299504624634633,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.14411774640772404,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0037084031457648775,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.14053169893237138,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.14793745500494476,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "11": {
+      "SP": {
+        "mean": {
+          "value": 0.28650888125758067,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.014243193069991993,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.27157498345048786,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.29994261916733045,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.14499636572905508,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.011906625721723792,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.13233799299777563,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.15597226447273319,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.14151251552852553,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0023719428918544854,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.13923699045271223,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.14397035469459726,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "12": {
+      "SP": {
+        "mean": {
+          "value": 0.30705730409013565,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.01486134426906289,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.2914183688004981,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.32099455979425373,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.1711429282222523,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.014093192737276009,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.15618953986674783,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.18417976754623108,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.13591437586788338,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0008145222941545033,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.13522882893375027,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.13681479224802265,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "13": {
+      "SP": {
+        "mean": {
+          "value": 0.32667237739208305,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.01541506850110593,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.31037818591973443,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.3410242156765521,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.19930979296753473,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.01638977936950702,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.18196059137952986,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.2145325821350642,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.12736258442454831,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.0009760839067274115,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.1264916335414879,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.12841759454020457,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "14": {
+      "SP": {
+        "mean": {
+          "value": 0.34538695365058053,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.015832855195384552,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.32857634118082235,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.36001574644298695,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.22946295833803063,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.018818366781735048,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.20959966671154828,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.24702468689347692,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.11592399531254997,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.00299460353839598,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.11299105954951003,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.11897667446927407,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "15": {
+      "SP": {
+        "mean": {
+          "value": 0.3632088998383513,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.01615177434947887,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.3459609848055761,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.3779779273220467,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.2615341206759709,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.021374111801289914,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.2390400941869054,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.2815769701244103,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.10167477916238037,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.005260021454324833,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.09640095719763642,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.10692089061867069,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "16": {
+      "SP": {
+        "mean": {
+          "value": 0.3801628529005978,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.016341835057832443,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.362607696954595,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.39493358929308414,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.2954688853135601,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.024066864307673904,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.2702074760549291,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.3181300365583037,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.08469396758703772,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.007799964811837069,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.07680355273478046,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.09240022089966587,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "17": {
+      "SP": {
+        "mean": {
+          "value": 0.39622318245081906,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.01642198603809054,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.3784575293729677,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.4108477686044721,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.3312232534810397,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.02694624084469484,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.30302822406612007,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.3567172647062528,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.06499992896977935,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.010656217317960135,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.05413050389821927,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.07542930530684766,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "18": {
+      "SP": {
+        "mean": {
+          "value": 0.4114141890130451,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.016391853157500174,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.3935245828789336,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.42571290132585937,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.3687956030426091,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.030054236024417497,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.33748985475440235,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.397418430775603,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.042618585970435996,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.01389240023036775,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.028294470550256356,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.05603472812453125,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "19": {
+      "SP": {
+        "mean": {
+          "value": 0.4257136124580665,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.016309180301501025,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.40771446068746786,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.43951029828176486,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.40810083746405307,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.033413391233232274,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.3735116722169357,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.44019903279991107,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": 0.017612774994013407,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.017508612398684786,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": -0.0006887345181462168,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.03420278847053215,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "20": {
+      "SP": {
+        "mean": {
+          "value": 0.4391551021853634,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.016161996960126417,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.4211142874149076,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.452311558113913,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.44908613609072373,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.037026696946877775,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.4110228102121238,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.4849808860573315,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": -0.00993103390536032,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.021509375208956658,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": -0.03266932794341848,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.010091477202783805,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "21": {
+      "SP": {
+        "mean": {
+          "value": 0.45175805950976117,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.016050654912956555,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.43363661674171566,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.46418530835366834,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.491465167800599,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.04086955329690593,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.4497883780910787,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.5314765719736678,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": -0.0397071082908379,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.025806697694409277,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": -0.06729126361999949,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": -0.016151761349363025,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "22": {
+      "SP": {
+        "mean": {
+          "value": 0.46355506579009026,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.01589379557668889,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.44542309633183,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.4750779795998236,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.5348922832101647,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.04481574580974928,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.48958617399822923,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.5792010165988719,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": -0.07133721742007436,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.030371325187411265,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": -0.10412303699904829,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": -0.04416307766639921,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "23": {
+      "SP": {
+        "mean": {
+          "value": 0.4745577961859066,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.015754765533528295,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.45643672356924003,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.4850085419865736,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.5791483490802012,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.04876228395925633,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.5302893805006569,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.627813369859403,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": -0.10459055289429463,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.03507880630484393,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": -0.14280482787282933,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": -0.07385265693141685,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "24": {
+      "SP": {
+        "mean": {
+          "value": 0.48480623950178714,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.015630939666445708,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.4667594132994147,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.49407525975288613,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.6240339452995168,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.05251005167362895,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.5718722762904883,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.6768855799678588,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": -0.13922770579772958,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.039704568241168255,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": -0.18281032021497268,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": -0.10511286299107359,
+          "label": "MEASURED"
+        }
+      }
+    },
+    "25": {
+      "SP": {
+        "mean": {
+          "value": 0.49423180740031253,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.01555415466828778,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.47630498386755743,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.5041457326932173,
+          "label": "MEASURED"
+        }
+      },
+      "CV": {
+        "mean": {
+          "value": 0.6693249277893459,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.055936290210966626,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": 0.6142259194614508,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": 0.7260624949847347,
+          "label": "MEASURED"
+        }
+      },
+      "gap_SP_minus_CV": {
+        "mean": {
+          "value": -0.17509312038903344,
+          "label": "MEASURED"
+        },
+        "std": {
+          "value": 0.044098325237740585,
+          "label": "MEASURED"
+        },
+        "min": {
+          "value": -0.22381778934457175,
+          "label": "MEASURED"
+        },
+        "max": {
+          "value": -0.13792093559389335,
+          "label": "MEASURED"
+        }
+      }
+    }
+  },
+  "environment": {
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "os": "Windows-11-10.0.26200-SP0",
+    "cpu": "Intel(R) Celeron(R) N4020 CPU @ 1.10GHz"
+  },
+  "wall_clock_seconds": 0.4051307000008819,
+  "timestamp": "2026-10-30T16:47:14.674763+00:00"
+}
